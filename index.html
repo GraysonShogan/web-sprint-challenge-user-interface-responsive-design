@@ -1,76 +1,74 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title>Sprint Challenge - Home</title>
-
-    <link rel="stylesheet" href="css/index.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
-      rel="stylesheet"
-    />
     <script
-      src="https://kit.fontawesome.com/5b12ffad4b.js"
-      crossorigin="anonymous"
-    ></script>
+	  src="https://kit.fontawesome.com/5b12ffad4b.js"
+	  crossorigin="anonymous"
+	  ></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint Challenge - Menu</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="html" href="menu.html">
   </head>
 
   <body>
     <div>
+      <!-- header -->
       <header>
-        <div class="opaque">
-          <nav>
-            <h1>BLOOMTECH BAR AND GRILL</h1>
-            <div class="links">
-              <a href="menu.html">Menu</a>
-              <a href="#">Reservations</a>
-              <a href="#">Special Offers</a>
-              <a href="#">Contact</a>
-            </div>
-            <div class="socialmedia">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-          </nav>
+        <div class="shadedbox">
+          <a href="/index.html"><h1 class="title">BLOOMTECH BAR AND GRILL</h1></a>
+          <!-- nav -->
+		  <nav>
+			  <div class="navlinks">
+						<a href="/menu.html">Menu</a><a href="#">Reservations</a
+						  ><a href="#">Special Offers</a><a href="#">Contact</a>
+					</div>
+					<div class="socials">
+            <a href="#"
+            ><i class="fa-brands fa-square-facebook"></i
+                ></a>
+                <a href="#"
+                ><i class="fa-brands fa-square-twitter"></i
+                    ></a>
+                    <a href="#"
+                    ><i class="fa-brands fa-square-instagram"></i
+                        ></a>
+                    </div>
+                </nav>
+				</nav>
         </div>
       </header>
+
+      <!-- gallery section -->
       <section class="gallery">
         <div>
           <h2>OUR FOOD</h2>
-        </div>
-        <div class="food">
-          <div class="foodimg">
-            <div class="toprow">
-              <img src="img/food-avocadotoast.jpg" alt="avocado toast" />
-              <img src="img/food-burger.jpg" alt="burger" />
-              <img src="img/food-wings.jpg" alt="wings" />
-            </div>
-            <div class="midrow">
-              <img src="img/food-poutine.jpg" alt="poutine" />
-              <img src="img/food-ribs.jpg" alt="ribs" />
-              <img src="img/food-sandwich.jpg" alt="sandwich" />
-            </div>
-            <div class="bottomrow">
-              <img src="img/food-sausage.jpg" alt="sausage" />
-              <img src="img/food-steak.jpg" alt="steak" />
-              <img src="img/food-tacos.jpg" alt="tacos" />
-            </div>
-          </div>
+          <img src="img/food-avocadotoast.jpg" alt="Avacado Toast" />
+          <img src="img/food-poutine.jpg" alt="Poutine served" />
+          <img src="img/food-burger.jpg" alt="A burger" />
+          <img src="img/food-ribs.jpg" alt="A set of ribs for food" />
+          <img src="img/food-sandwich.jpg" alt="a killer sandwich" />
+          <img src="img/food-sausage.jpg" alt="a delicious Sausage" />
+          <img src="img/food-steak.jpg" alt="the best steak ever" />
+          <img src="img/food-tacos.jpg" alt="awesome tacos" />
+          <img src="img/food-wings.jpg" alt="good old wings" />
         </div>
       </section>
 
+      <!-- spacer -->
       <div class="spacer"></div>
 
+      <!-- about section -->
       <section class="about">
         <div class="about-container">
           <h2>ABOUT US</h2>
+
           <div id="cooks" class="pic"></div>
+
           <div class="text">
             <h3>Good Food, Great People</h3>
             <p>
@@ -85,25 +83,32 @@
               do tenderloin qui.
             </p>
           </div>
+
           <div id="bartender" class="pic"></div>
         </div>
       </section>
 
+      <!-- spacer -->
       <div class="spacer"></div>
 
+      <!-- contact section -->
       <section class="contact">
         <div class="contact-container">
           <h2>CONTACT US</h2>
+
           <div class="info">
             <div class="address">
               <h3>Address</h3>
+
               <address>
                 <p>100 Main St</p>
                 <p>San Francisco, CA</p>
               </address>
             </div>
+
             <div class="hours">
               <h3>Hours</h3>
+
               <div>
                 <p>Sunday to Thursday:</p>
                 <p>12:00p - 12:00a</p>
@@ -111,8 +116,10 @@
                 <p>12:00p - 4:00a</p>
               </div>
             </div>
+
             <div class="contacts">
               <h3>Contacts</h3>
+
               <div>
                 <a id="phone" href="tel:999-999-9999">999-999-9999</a>
                 <a id="email" href="mailto:restaurant@bloomtech.com"
@@ -124,24 +131,28 @@
         </div>
       </section>
 
+      <!-- spacer -->
       <div class="spacer-sm"></div>
 
-      <footer>
-        <div class="email">
-          <label for="email">Join our mailing list!</label><br />
-          <input type="text" placeholder="Email Address" />
-          <button>Sign Up</button>
-        </div>
-        <div class="links">
-          <a href="menu.html">Menu</a>
-          <a href="#">Reservations</a>
-          <a href="#">Special Offers</a>
-          <a href="#">Contact</a>
-        </div>
-        <div class="copyright">
-          ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-        </div>
-      </footer>
+      <!-- footer -->
+	  <div class="footerbackground">
+
+		  <footer>
+			  <!-- email signup -->
+			  <label for="email">Join our mailing list!</label><label for=""><br>
+				<input type="text" placeholder="Email Address" >
+				<button>Sign Up</button>
+				<!-- nav -->
+				<nav class="bottomnav">
+					<a href="/menu.html">Menu</a><a href="#">Reservations</a
+						><a href="#">Special Offers</a><a href="#">Contact</a>
+					</nav>
+					<!-- copyright -->
+					<p class="copyright">
+						©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+					</p>
+				</footer>
+			</div>
     </div>
   </body>
 </html>
