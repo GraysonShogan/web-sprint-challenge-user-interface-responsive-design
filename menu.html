@@ -4,6 +4,8 @@
   <head>
     <meta charset="utf-8" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Sprint Challenge - Menu</title>
 
     <link rel="stylesheet" href="css/menu.css" />
@@ -20,29 +22,33 @@
 
   <body>
     <div>
+      <!-- header -->
       <header>
-        <div class="opaque">
+        <div class="shadedbox1">
+          <a href="/index.html"
+            ><h1 class="title">BLOOMTECH BAR AND GRILL</h1></a
+          >
+          <!-- nav -->
           <nav>
-            <h1>BLOOMTECH BAR AND GRILL</h1>
-            <div class="links">
-              <a href="menu.html">Menu</a>
-              <a href="#">Reservations</a>
-              <a href="#">Special Offers</a>
-              <a href="#">Contact</a>
+            <div class="navlinks">
+              <a href="/menu.html">Menu</a><a href="#">Reservations</a
+              ><a href="#">Special Offers</a><a href="#">Contact</a>
             </div>
-            <div class="socialmedia">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
+            <div class="socials">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
             </div>
           </nav>
         </div>
       </header>
 
+      <!-- spacer -->
       <div class="spacer"></div>
 
+      <!-- menu -->
       <article class="menu">
-        <div class="shaded">
+        <div class="shadedbox">
           <h2>Food & Drink</h2>
           <div class="menu-container">
             <section class="menu-section">
@@ -163,23 +169,28 @@
           </div>
         </div>
       </article>
+
+      <!-- spacer -->
       <div class="spacer-sm"></div>
 
-      <footer>
-        <!-- email signup -->
-        <label for="email">Join our mailing list!</label><br />
-        <input type="text" placeholder="Email Address" />
-        <button>Sign Up</button>
-        <!-- nav -->
-        <a href="menu.html">Menu</a>
-        <a href="#">Reservations</a>
-        <a href="#">Special Offers</a>
-        <a href="#">Contact</a>
-        <!-- copyright -->
-        <p class="copyright">
-          ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-        </p>
-      </footer>
+      <!-- footer -->
+      <div class="footerbackground">
+        <footer>
+          <!-- email signup -->
+          <label for="email">Join our mailing list!</label><br />
+          <input type="text" placeholder="Email Address" />
+          <button>Sign Up</button>
+          <!-- nav -->
+          <nav class="bottomnav">
+            <a href="/menu.html">Menu</a><a href="#">Reservations</a
+            ><a href="#">Special Offers</a><a href="#">Contact</a>
+          </nav>
+          <!-- copyright -->
+          <p class="copyright">
+            ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+          </p>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
